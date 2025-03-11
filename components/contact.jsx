@@ -2,12 +2,23 @@
 import Image from "next/image";
 import logo from "./ContactAssets/NITR logo.png";
 import cvmilogo from "./ContactAssets/cvmi_logo 1.png";
+import Link from "next/link";
 
 import { Mail, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
 
 export default function Contact() {
+  // Scroll to specific section
+  const handleClick = (e, href) => {
+    e.preventDefault();
+    if (href) {
+      const targetElement = document.getElementById(href);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
   return (
-    <div className="bg-white">
+    <div id="contactus" className="bg-white">
       {/* Contact Header */}
       <div className="py-10 mx-16 my-2.5">
         <h2 className="text-5xl font-bold text-[#CC5F00]">
@@ -24,8 +35,8 @@ export default function Contact() {
       </div>
 
       {/* Footer Section */}
-      <footer className="bg-[#0F0F0F] text-white py-10 rounded-t-4xl my-4">
-        <div className="container mx-auto flex flex-col md:flex-row justify-between my-5 px-6">
+      <footer className="bg-[#0F0F0F] text-white py-10 rounded-t-3xl">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between my-5 px-6 ">
           {/* Conference Details */}
           <div>
             <h3 className="text-lg font-semibold">
@@ -88,51 +99,50 @@ export default function Contact() {
             {[
               {
                 name: "Home",
-                href: "#",
+                href: "home",
               },
               {
                 name: "About Us",
-                href: "#",
+                href: "aboutus",
               },
               {
                 name: "Schedule & Agenda",
-                href: "#",
+                href: "",
               },
               {
                 name:"CVMI-2025 Attractions",
-                href: "#",
+                href: "",
               },
               {
                 name:"Topics of CVMI-2025",
-                href: "#",
+                href: "topics",
               },
               {
                 name:"Paper Submission",
-                href: "#",
+                href: "",
               },
               {
                 name:"CVMI-2025 Organizing Committee",
-                href: "#",
+                href: "ourteam",
               },
               {
                 name: "Contact Us",
-                href: "#",
+                href: "contactus",
               },
             ].map((key) => (
               <li key={key.name}>
-                <a
-                  href={key.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center group hover:underline"
-                >{key.name}
-                </a>
+                <Link
+                  href={`#${key.href}`}
+                  onClick={(e) => handleClick(e, key.href)}
+                  className="flex items-center group hover:underline cursor-pointer"
+                >
+                  {key.name}
+                </Link>
               </li>
             ))}
           </ul>
           </div>
           
-
           {/* Contact Information */}
           <div className="text-sm">
             <h3 className="text-lg font-semibold">CONTACT US</h3>
@@ -146,23 +156,23 @@ export default function Contact() {
 
         {/* Footer Bottom */}
         <div className="flex justify-between">
-        <div className="text-gray-500 text-xs mt-6 mx-5">
+        <div className="text-gray-500 text-md mt-6 mx-5">
           @CVMI-2025
         </div>
-        <div className="flex gap-28 mt-3 mx-5">
+        <div className="flex items-center gap-12 mt-3 mx-5">
           <Image
               src={cvmilogo}
               alt="cvmiLogo"
               width={125}
               height={20}
-              className="h-10"
+              className=""
             />
             <Image
               src={logo}
               alt="NITR Logo"
-              width={75}
-              height={20}
-              className="h-10"
+              width={50}
+              height={50}
+              className=""
             />
             </div>
             </div>

@@ -5,6 +5,7 @@ import { Calendar, MapPin } from "lucide-react";
 const Hero = () => {
   return (
     <div
+        id='home'
         className="relative overflow-hidden bg-black"
         style={{ height: 'calc(100vh - 2rem)',
         backgroundImage: 'url(https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741620271/image_2_t792t1.png)',
