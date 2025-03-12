@@ -28,7 +28,9 @@ export default function Contact() {
         <p className="mt-4 text-lg">
           For inquiries, please email us at{" "}
           <span className="font-bold text-black">
-            cvmi2025@nitrkl.ac.in
+            <a href="mailto:cvmi2025@nitrkl.ac.in" className="hover:underline">
+              cvmi2025@nitrkl.ac.in
+            </a>
           </span>
           .
         </p>
@@ -155,27 +157,30 @@ export default function Contact() {
         <div className="w-[98%] h-0.5 bg-gray-700 mx-4 mt-2"></div>
 
         {/* Footer Bottom */}
-        <div className="flex justify-between">
-        <div className="text-gray-500 text-md mt-6 mx-5">
-          @CVMI-2025
+        <div className="flex flex-col justify-between items-center">
+          <div className="flex justify-between items-end w-full">
+            <div className="text-gray-500 text-md mt-6 mx-5">
+              @CVMI-2025
+            </div>
+            <div className="flex items-center gap-12 mt-3 mx-5">
+              <Image
+                src={cvmilogo}
+                alt="cvmiLogo"
+                width={125}
+                height={20}
+              />
+              <Image
+                src={logo}
+                alt="NITR Logo"
+                width={50}
+                height={50}
+              />
+            </div>
+          </div>
         </div>
-        <div className="flex items-center gap-12 mt-3 mx-5">
-          <Image
-              src={cvmilogo}
-              alt="cvmiLogo"
-              width={125}
-              height={20}
-              className=""
-            />
-            <Image
-              src={logo}
-              alt="NITR Logo"
-              width={50}
-              height={50}
-              className=""
-            />
-            </div>
-            </div>
+        <div className="text-[#CC5F00] text-md text-center mt-4">
+            Designed and developed with <span className="text-[#CC5F00]">❤️</span> by Team Webwiz
+          </div>
       </footer>
     </div>
   );

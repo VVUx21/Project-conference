@@ -1,6 +1,8 @@
 'use client';
 import { useState } from "react";
 import { motion } from "framer-motion";
+import {data} from "./data"
+import Image from "next/image";
 
 const SpeakersSection = () => {
   const [visibleCount, setVisibleCount] = useState(4); 
@@ -9,56 +11,6 @@ const SpeakersSection = () => {
     setVisibleCount((prevCount) => prevCount + 4); 
   };
 
-  const speakers = [
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-    {
-      name: "Prof B B Chaudhuri",
-      institute: "Indian Statistical Institute (ISI), Kolkata",
-    },
-  ];
   return (
     <div id="ourteam" className="bg-white">
       <div className="py-10 mx-16 my-2.5">
@@ -69,29 +21,37 @@ const SpeakersSection = () => {
       <section className="py-12 bg-white text-black">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {speakers.slice(0, visibleCount).map((speaker, index) => (
+            {data.slice(0, visibleCount).map((speaker, id) => (
               <motion.div 
-                key={index} 
+                key={id} 
                 className="flex flex-col items-center"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <div className="w-40 h-40 bg-gray-300 rounded-full mb-4"></div>
+                <div className="w-40 h-40 rounded-full mb-4">
+                  <Image
+                    src={speaker.image}
+                    alt={speaker.name}
+                    height={160}
+                    width={160}
+                    className="w-full h-full object-cover rounded-full"
+                  />
+                </div>
                 <p className="text-lg font-semibold">{speaker.name}</p>
-                <p className="text-sm text-gray-600">{speaker.institute}</p>
+                <p className="text-sm text-gray-600">{speaker.college}</p>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {visibleCount < speakers.length && (
+      {visibleCount < data.length && (
         <div 
           className="py-10 mx-16 my-2.5"
           onClick={handleSeeMore}
         >
-          <h2 className="text-3xl font-bold text-[#26196E] cursor-pointer hover:underline">Click to see more...</h2>
+          <h2 className="text-3xl font-bold inline text-[#26196E] cursor-pointer hover:underline">Click to see more...</h2>
         </div>
       )}
     </div>
