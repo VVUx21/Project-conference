@@ -9,7 +9,6 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Hero = () => {
   const images = [
-    'https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741620271/image_2_t792t1.png',
     'https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741779175/WhatsApp_Image_2025-03-12_at_16.39.09_a2b91448_gf1vpc.jpg',
     'https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741774998/WhatsApp_Image_2025-03-12_at_10.50.21_ff755a16_nithpd.jpg',
     'https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741774950/IMG-20250312-WA0008_1_inru0k.jpg',
@@ -45,7 +44,7 @@ const Hero = () => {
           ))}
         </Slider>
       </div>
-      <section className='relative w-full h-full bg-black/60 xl:py-48 md:py-32 px-6 sm:px-8 py-36 lg:px-12 text-white z-10'>
+      <section className='relative w-full h-full bg-black/30 xl:py-48 md:py-32 px-6 sm:px-8 py-36 lg:px-12 text-white z-10'>
         <div className='max-w-7xl mx-auto my-auto'>
           <div className='text-center lg:text-left p-6 rounded-lg'>
             <p className='text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide leading-tight mb-8'>

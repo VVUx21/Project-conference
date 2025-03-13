@@ -4,25 +4,25 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
           <div>
             <h1 className="md:text-5xl text-3xl  font-bold underline text-[#CC5F00] mb-4 sm:mb-6 text-left relative">
-              About Us
+              About CVMI
             </h1>
-            <p className=" md:mt-16 lg:text-xl font-medium text-center tracking-wide md:text-left mb-4 sm:mb-6 lg:mb-16">
+            <p className=" md:mt-16 lg:text-xl font-medium text-center tracking-wide md:text-left">
               In today’s fast-moving world,{" "}
               <strong>Artificial Intelligence (AI)</strong> and{" "}
               <strong>Machine Learning (ML)</strong> models and systems are
               everywhere. Computer Vision, Image Processing, and Machine
               Intelligence are witnessing rapid advancements that have helped
-              industry and society.
+              industry and society.The 4th 
             </p>
   
             <p className="lg:text-xl font-medium text-center tracking-wide md:text-left mb-4 sm:mb-6 lg:mb-16">
-              The 4th International Conference on Computer Vision & Machine
+              International Conference on Computer Vision & Machine
               Intelligence (CVMI-2025) is being organized by the Electronics &
               Communication Engineering Department at{" "}
               <strong>NIT Rourkela from October 12-13, 2025.</strong>
             </p>
   
-            <p className="lg:text-xl font-medium text-center tracking-wide md:text-left mb-4 sm:mb-6 lg:mb-16">
+            <p className="lg:text-xl font-medium text-center tracking-wide md:text-left">
               The worldwide leading research labs, including the Applied AI
               Research Lab, University of South Dakota, USA, and the Computer
               Vision Laboratory, University of Ljubljana, Slovenia, have agreed to
@@ -52,11 +52,11 @@ const AboutUs = () => {
               alt="Conference Venue 2"
               className="rounded-lg shadow-lg w-full sm:h-56 lg:h-64 object-cover"
             />
-            <img
+            {/* <img
               src="/image 8.png"
               alt="Conference Venue 3"
               className="rounded-lg shadow-lg w-full sm:h-56 lg:h-64 object-cover"
-            />
+            /> */}
           </div>
         </div>
       </div>
