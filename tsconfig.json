@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "components/Submission.tsx"  ],
   "exclude": [
     "node_modules"
   ]
