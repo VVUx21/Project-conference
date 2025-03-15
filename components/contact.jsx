@@ -104,16 +104,16 @@ export default function Contact() {
                 href: "home",
               },
               {
-                name: "About Us",
+                name: "About CVMI",
                 href: "aboutus",
               },
               {
                 name: "Schedule & Agenda",
-                href: "",
+                href: "schedule",
               },
               {
                 name:"CVMI-2025 Attractions",
-                href: "",
+                href: "attraction",
               },
               {
                 name:"Topics of CVMI-2025",
@@ -121,7 +121,7 @@ export default function Contact() {
               },
               {
                 name:"Paper Submission",
-                href: "",
+                href: "submission",
               },
               {
                 name:"CVMI-2025 Organizing Committee",
@@ -150,7 +150,9 @@ export default function Contact() {
             <h3 className="text-lg font-semibold">CONTACT US</h3>
             <p className="mt-2 flex items-center space-x-2">
               <Mail className="w-5 h-5 text-gray-400" />
-              <span>cvmi2025@nitrkl.ac.in</span>
+              <a href="mailto:cvmi2025@nitrkl.ac.in" className="hover:underline">
+              cvmi2025@nitrkl.ac.in
+            </a>
             </p>
           </div>
         </div>

@@ -2,11 +2,11 @@ import React from 'react';
 
 const Submission: React.FC = () => {
   return (
-    <div className="text-white p-6 sm:p-10 md:p-16">
+    <div id='submission' className="text-white p-6 sm:p-10 md:px-16">
       {/* Heading Section */}
       <div className="w-full">
       <h1 className="md:text-5xl text-3xl  font-bold underline text-[#CC5F00] mb-4 sm:mb-6 text-left relative">
-      CVMI-2025 ATTRACTIONS	
+      Paper Submission	
             </h1>
       </div>
 

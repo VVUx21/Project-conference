@@ -1,7 +1,7 @@
 import React from 'react'
 const Attractions: React.FC = () => {
   return (
-    <div className="text-black font-roboto p-6 sm:p-10 md:p-16 font-medium text-2xl leading-[48px] tracking-normal">
+    <div id='attraction' className="text-black font-roboto p-6 sm:p-10 md:p-16 font-medium text-2xl leading-[48px] tracking-normal">
       {/* Heading Section */}
       <div className="w-full">
       <h1 className="md:text-5xl text-3xl  font-bold underline text-[#CC5F00] mb-4 sm:mb-6 text-left relative">

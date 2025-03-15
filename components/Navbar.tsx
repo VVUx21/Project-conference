@@ -10,17 +10,20 @@ import {
 import Image from 'next/image';
 
 const navigation = [
-    { name: 'Committee', href: '/'},
-    { name: 'Keynote', href: '/'},
-    { name: 'Call for Papers', href: '/'},
-    { name: 'Paper Submission', href: '/'},
-    { name: 'Accepted Papers', href: '/'},
-    { name: 'Registration', href: '/'},
-    { name: 'PhD Colloquium', href: '/'},
-    { name: 'Sponsors', href: '/'},
-  ];
+  { name: "Committee", href: "/Committee" },
+  { name: "Keynote", href: "/" },
+  { name: "Call for Papers", href: "/", action: "download" },
+  { name: "Paper Submission", href: "/" },
+  { name: "Accepted Papers", href: "/" },
+  { name: "Registration", href: "/" },
+  { name: "PhD Colloquium", href: "/" },
+  { name: "Sponsors", href: "/" },
+];
 
 export default function Navbar() {
+  const handleDownload = (url: string) => {
+    window.open(url, "_blank");
+  };
   return (
     <nav className="bg-white border-b border-gray-200 fixed w-full rounded-b-3xl z-50 top-0 left-0">
       <div className="max-w-full px-4 sm:px-6 lg:px-8">
@@ -40,16 +43,28 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-1">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="text-gray-600 hover:text-primary px-3 rounded-md text-sm font-medium transition-colors"
-              >
-                {item.name}
-              </Link>
+              <ul className="flex space-x-6">
+            {navigation.map((item, index) => (
+              <li key={index}>
+                {item.action === "download" ? (
+                  <button
+                    onClick={() =>
+                      handleDownload(
+                        "https://drive.google.com/file/d/1cMmerHyQ6oEkwYI4meDlOmaRGmRGGltD/view?usp=sharing" )
+                    }
+                    className="hover:text-gray-400"
+                  >
+                    {item.name}
+                  </button>
+                ) : (
+                  <Link href={item.href} className="hover:text-gray-400">
+                    {item.name}
+                  </Link>
+                )}
+              </li>
             ))}
-          </div>
+          </ul>
+        </div>
 
           {/* Mobile Navigation */}
           <div className="lg:hidden">
@@ -62,17 +77,30 @@ export default function Navbar() {
               </SheetTrigger>
               <SheetContent side="left" className="w-[300px] bg-white sm:w-[400px]">
                 <nav className="flex flex-col gap-4 mt-6">
-                  {navigation.map((item) => {
-                    return (
-                      <Link
-                        key={item.name}
-                        href={item.href}
-                        className="flex items-center gap-2 text-lg font-medium text-gray-600 hover:text-primary transition-colors"
-                      >
-                        {item.name}
-                      </Link>
-                    );
-                  })}
+                  <ul className="flex flex-col gap-4">
+                  {
+                   navigation.map((item, index) => (
+                    <li key={index}>
+                      {item.action === "download" ? (
+                        <button
+                          onClick={() =>
+                            handleDownload(
+                              "https://drive.google.com/file/d/1cMmerHyQ6oEkwYI4meDlOmaRGmRGGltD/view?usp=sharing" 
+                            )
+                          }
+                          className="hover:text-gray-400"
+                        >
+                          {item.name}
+                        </button>
+                      ) : (
+                        <Link href={item.href} className="hover:text-gray-400">
+                          {item.name}
+                        </Link>
+                      )}
+                    </li>
+                   ))
+                  }
+                  </ul>
                 </nav>
               </SheetContent>
             </Sheet>

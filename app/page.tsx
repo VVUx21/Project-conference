@@ -11,11 +11,11 @@ import Submission from '../components/Submission';
 export default function Page() {
     return <div>
       <Hero/>
-      <h1 className="text-3xl font-bold underline"></h1>
       <AboutUs />
       <Attractions/>
       <Topics />
       <Submission/>
+      <Schedule/>
       <KeynoteSpeakers/>
       <Contact/>
     </div>
