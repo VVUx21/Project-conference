@@ -65,7 +65,7 @@ const PageSubmission: React.FC = () => {
         </h2>
         <div className="max-w-full">
           <p className="mb-4">
-          The proceedings of the conference will be published by IEEE Xplore. <Link href={'https://conferences.ieee.org/conferences_events/conferences/conferencedetails/61877'} className='text-blue-500 underline'>IEEE Conference Record Number 61877.</Link>
+          The proceedings of the conference will be published by IEEE Xplore.
           </p>
         </div>
       </div>
