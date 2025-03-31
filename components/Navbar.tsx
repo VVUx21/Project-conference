@@ -13,7 +13,7 @@ const navigation = [
   { name: "Committee", href: "/Committee" },
   { name: "Keynote", href: "/" },
   { name: "Call for Papers", href: "/", action: "download" },
-  { name: "Paper Submission", href: "/" },
+  { name: "Paper Submission", href: "/papersubmission" },
   { name: "Accepted Papers", href: "/" },
   { name: "Registration", href: "/" },
   { name: "PhD Colloquium", href: "/" },
