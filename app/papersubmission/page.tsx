@@ -97,8 +97,7 @@ const PageSubmission: React.FC = () => {
         </h2>
         <div className="max-w-full">
           <p className="mb-4">
-          The manuscript has to be uploaded online at the CVMI2025 Microsoft Research paper submission portal.
-          </p>
+          The manuscript has to be uploaded online at the CVMI2025 Microsoft Research paper submission portal CMT.          </p>
         </div>
       </div>
     </div>
