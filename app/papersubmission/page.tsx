@@ -16,7 +16,7 @@ const PageSubmission: React.FC = () => {
         </div>
       <div className="text-black font-roboto font-medium text-2xl leading-[48px] tracking-normal p-6 mt-">
         <h2 className="text-4xl font-bold mb-4 text-[#000] underline">
-            Intstructions
+            Instructions
         </h2>
         <div className="max-w-full">
           <p className="mb-4">
@@ -97,7 +97,10 @@ const PageSubmission: React.FC = () => {
         </h2>
         <div className="max-w-full">
           <p className="mb-4">
-          The manuscript has to be uploaded online at the CVMI2025 Microsoft Research paper submission portal CMT.          </p>
+          The manuscript has to be uploaded online at the CVMI2025 Microsoft Research paper submission portal CMT.</p>
+          <Link href={"https://cmt3.research.microsoft.com/CVMIconf2025"} className="text-blue-500 underline">
+          CVMI 2025 Paper Submission Portal
+          </Link>
         </div>
       </div>
     </div>

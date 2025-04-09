@@ -48,7 +48,7 @@ const Hero = () => {
         <div className='max-w-7xl mx-auto my-auto'>
           <div className='text-center lg:text-left p-6 rounded-lg'>
             <p className='text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide leading-tight mb-8'>
-              4th International Conference on <br className='hidden sm:block' />
+              4th IEEE International Conference on <br className='hidden sm:block' />
               Computer Vision and Machine <br className='hidden sm:block' />
               Intelligence CVMI 2025
             </p>

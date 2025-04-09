@@ -28,7 +28,7 @@ const Schedule = () => {
           
           <strong><li>Submission Deadline: 15 May 2025</li></strong>
       
-          <strong><li>Acceptance Notification: 15 May 2025</li></strong>
+          <strong><li>Acceptance Notification: 15 July 2025</li></strong>
           
           <strong><li>Early Bird Registration: 31 August 2025</li></strong> 
           

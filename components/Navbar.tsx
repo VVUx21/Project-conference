@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import {Menu} from 'lucide-react';
 import { Button } from '../components/ui/button';
+import {DropdownMenuDemo} from '../components/dropdown';
 import {
   Sheet,
   SheetContent,
@@ -10,14 +11,15 @@ import {
 import Image from 'next/image';
 
 const navigation = [
+  { name: "Home", href: "/" },
   { name: "Committee", href: "/Committee" },
-  { name: "Keynote", href: "/" },
+  { name: "Keynote", href: "/comingsoon" },
   { name: "Call for Papers", href: "/", action: "download" },
   { name: "Paper Submission", href: "/papersubmission" },
-  { name: "Accepted Papers", href: "/" },
-  { name: "Registration", href: "/" },
-  { name: "PhD Colloquium", href: "/" },
-  { name: "Sponsors", href: "/" },
+  { name: "Accepted Papers", href: "/comingsoon" },
+  { name: "Registration", href: "/comingsoon" },
+  { name: "PhD Colloquium", href: "/comingsoon" },
+  { name: "Sponsors", href: "/comingsoon" },
 ];
 
 export default function Navbar() {
@@ -43,14 +45,15 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-1">
-              <ul className="flex space-x-6">
+              <ul className="flex space-x-3">
             {navigation.map((item, index) => (
-              <li key={index}>
+              <li key={index} className="relative">
                 {item.action === "download" ? (
                   <button
                     onClick={() =>
                       handleDownload(
-                        "https://drive.google.com/file/d/1kNilysKpUnLUvWs00oN400zzSAp5zQI8/view?usp=sharing" )
+                        "https://drive.google.com/file/d/1N9J_gYlzi8OQBNQaS9yV3oubXHx76hrB/view?usp=sharing"
+                      )
                     }
                     className="hover:text-gray-400"
                   >
@@ -63,6 +66,7 @@ export default function Navbar() {
                 )}
               </li>
             ))}
+            <DropdownMenuDemo/>
           </ul>
         </div>
 
@@ -85,7 +89,7 @@ export default function Navbar() {
                         <button
                           onClick={() =>
                             handleDownload(
-                              "https://drive.google.com/file/d/1kNilysKpUnLUvWs00oN400zzSAp5zQI8/view?usp=sharing" 
+                              "https://drive.google.com/file/d/1N9J_gYlzi8OQBNQaS9yV3oubXHx76hrB/view?usp=sharing" 
                             )
                           }
                           className="hover:text-gray-400"
@@ -101,6 +105,7 @@ export default function Navbar() {
                    ))
                   }
                   </ul>
+                  <DropdownMenuDemo/>
                 </nav>
               </SheetContent>
             </Sheet>

@@ -84,13 +84,6 @@ export const data=[
     "teams": ["General Co-Chairs"]
   },
   {
-    "id": 13,
-    "name": "Prof. Manish Okade",
-    "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733096/Manish_Okade_roocos.jpg",
-    "college": "NIT Rourkela",
-    "teams": ["Conference Chairs", "Conference Convener & Information Contact"]
-  },
-  {
     "id": 14,
     "name": "Prof. Satish Kumar Singh",
     "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733031/Dr._Satish_Kumar_Singh_IIIT_Allahabad_qawhso.jpg",
@@ -112,6 +105,27 @@ export const data=[
     "teams": ["Conference Co-Chair"]
   },
   {
+    "id": 19,
+    "name": "Prof. Shiv Ram Dubey",
+    "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733032/Dr._Shiv_Ram_Dubey_ocfcek.jpg",
+    "college": "IIIT Allahabad",
+    "teams": ["Technical Program Committee"]
+  },
+  {
+    "id": 24,
+    "name": "Prof. Rajlaxmi Chouhan",
+    "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733031/Dr._Rajalaxmi_Chouhan_IIT_Jodhpur_p3onha.jpg",
+    "college": "IIT Jodhpur",
+    "teams": ["Technical Program Committee"]
+  },
+  {
+    "id": 26,
+    "name": "Prof. Manoj Thakur",
+    "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1744121340/manoj_hgnpka.jpg",
+    "college": "IIT Mandi",
+    "teams": ["Technical Program Committee"]
+  },
+  {
     "id": 17,
     "name": "Prof. Prasad Ramavanth",
     "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733097/Prasad_Naik_idcs8b.jpg",
@@ -124,13 +138,6 @@ export const data=[
     "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733031/Dr._S._Venkatesan_IIIT_Allahabad_nr6hzc.jpg",
     "college": "IIIT Allahabad",
     "teams": ["Conference Publication Chairs"]
-  },
-  {
-    "id": 19,
-    "name": "Prof. Shiv Ram Dubey",
-    "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733032/Dr._Shiv_Ram_Dubey_ocfcek.jpg",
-    "college": "IIIT Allahabad",
-    "teams": ["Technical Program Committee"]
   },
   {
     "id": 20,
@@ -161,17 +168,17 @@ export const data=[
     "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741732991/Dr._Basabdatta_Palit_NIT_Rourkela_n4toky.jpg"
 },
   {
-    "id": 24,
-    "name": "Prof. Rajalaxmi Chouhan",
-    "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733031/Dr._Rajalaxmi_Chouhan_IIT_Jodhpur_p3onha.jpg",
-    "college": "IIT Jodhpur",
-    "teams": ["Technical Program Committee"]
-  },
-  {
     "id": 25,
     "name": "Prof. Sandip Ghosal",
     "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733230/Sandip_Ghosal_ispzdj.jpg",
     "college": "NIT Rourkela",
     "teams": ["Local Organizing Committee"]
+  },
+  {
+    "id": 13,
+    "name": "Prof. Manish Okade",
+    "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733096/Manish_Okade_roocos.jpg",
+    "college": "NIT Rourkela",
+    "teams": ["Conference Chairs", "Conference Convener & Information Contact"]
   },
 ]
