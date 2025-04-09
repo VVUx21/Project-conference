@@ -121,7 +121,7 @@ export const data=[
   {
     "id": 26,
     "name": "Prof. Manoj Thakur",
-    "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1744121340/manoj_hgnpka.jpg",
+    "image": "https://drive.google.com/file/d/1LvMWsGUnyUIA3vNR6e62jX9L-gWb08pg/view?usp=sharing",
     "college": "IIT Mandi",
     "teams": ["Technical Program Committee"]
   },
