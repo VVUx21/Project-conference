@@ -26,7 +26,7 @@ const Schedule = () => {
         >
           <strong><li>Paper Submission Opens: 15 March 2025</li></strong> 
           
-          <strong><li>Submission Deadline: 15 May 2025</li></strong>
+          <strong><li>Submission Deadline: 15 June 2025 (Hard Deadline)</li></strong>
       
           <strong><li>Acceptance Notification: 15 July 2025</li></strong>
           

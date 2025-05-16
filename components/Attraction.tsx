@@ -17,7 +17,7 @@ const Attractions: React.FC = () => {
             Sponsored by IEEE Rourkela Sub-Section and Co-sponsored by IEEE Kolkata section and IEEE Uttar Pradesh section .
           </li>
           <li>Best PhD Dissertation Awards.</li>
-          <li>Endorsed by IAPR (Approval Pending).</li>
+          <li>Endorsed by IAPR.</li>
           <li>IAPR Best Paper Award and CVMI-2025 Best Paper Awards.</li>
           <li>Indexed by Scopus, DBLP, and Google Scholar.</li>
         </ul>
