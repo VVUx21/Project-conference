@@ -52,7 +52,7 @@ export default function Navbar() {
                   <button
                     onClick={() =>
                       handleDownload(
-                        "https://drive.google.com/file/d/1BnZJwKW3w9NdXGzlp0DDiVHWDAI6A4Bp/view?usp=sharing"
+                        "https://drive.google.com/file/d/1bikbENi8ufpGI4mQ1d7gFm_3GA0wD0NF/view?usp=sharing"
                       )
                     }
                     className="hover:text-gray-400"
@@ -89,7 +89,7 @@ export default function Navbar() {
                         <button
                           onClick={() =>
                             handleDownload(
-                              "https://drive.google.com/file/d/1BnZJwKW3w9NdXGzlp0DDiVHWDAI6A4Bp/view?usp=sharing" 
+                              "https://drive.google.com/file/d/1bikbENi8ufpGI4mQ1d7gFm_3GA0wD0NF/view?usp=sharing" 
                             )
                           }
                           className="hover:text-gray-400"
