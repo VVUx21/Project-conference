@@ -28,7 +28,7 @@ const Schedule = () => {
           
           <strong><li>Submission Deadline: 5 July 2025 (Due to multiple requests from prospective authors, the CVMI committee has extended the paper submission till July 5. No further extensions will be granted.)</li></strong>
       
-          <strong><li>Acceptance Notification: 15 July 2025</li></strong>
+          <strong><li>Acceptance Notification: 15 August 2025</li></strong>
           
           <strong><li>Early Bird Registration: 31 August 2025</li></strong> 
           
