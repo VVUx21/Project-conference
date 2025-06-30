@@ -35,7 +35,7 @@ const Organizing = () => {
       </div>
       {Object.keys(groupedMembers).map((team,id) => (
         <div key={id} className="max-w-6xl px-4 sm:px-6 lg:px-8">
-             <div className="py-10 mx-16 my-2.5">
+            <div className="py-10 mx-16 my-2.5">
                 <h2 className="text-4xl font-bold text-[#000] underline">{team}</h2>
             </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">

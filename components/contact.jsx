@@ -131,6 +131,10 @@ export default function Contact() {
                 name: "Contact Us",
                 href: "contactus",
               },
+              {
+                name: "Sponsors",
+                href: "sponsorship",
+              },
             ].map((key) => (
               <li key={key.name}>
                 <Link
