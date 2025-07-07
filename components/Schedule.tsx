@@ -31,7 +31,7 @@ const Schedule: React.FC = () => {
     {
       id: 3,
       title: "Acceptance Notification",
-      date: "15 July 2025",
+      date: "15 August 2025",
       description: "Authors will receive notification about paper acceptance",
       color: "from-orange-500 to-orange-600",
       bgGradient: "bg-gradient-to-br from-orange-50 to-orange-100"
