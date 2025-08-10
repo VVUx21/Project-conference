@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import Navbar from '../../components/Navbar'
-import { data } from '../../components/data';
+import { data } from '../../components/Data/data';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Contact from '../../components/contact';

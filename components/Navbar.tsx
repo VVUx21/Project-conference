@@ -17,8 +17,7 @@ const navigation = [
   { name: "Call for Papers", href: "/", action: "download" },
   { name: "Paper Submission", href: "/papersubmission" },
   { name: "Accepted Papers", href: "/comingsoon" },
-  { name: "Registration", href: "/comingsoon" },
-  { name: "PhD Colloquium", href: "/comingsoon" },
+  { name: "Registration", href: "/registration" },
   { name: "Sponsors", href: "/comingsoon" },
 ];
 
