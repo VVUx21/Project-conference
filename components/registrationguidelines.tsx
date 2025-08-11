@@ -42,6 +42,30 @@ export default function RegistrationGuidelinesNote() {
                 Attendees who wish to register but do not have a paper can register at the non-author rates.
               </p>
             </div>
+
+            <div className="bg-white rounded-lg p-4 border border-black-200">
+              <h4 className="font-semibold mb-2 text-black-900">Multiple Paper Discount</h4>
+              <p>
+                If an author has two accepted papers, the total registration fee will be 1.5 times the cost of registration of one paper. 
+                This discount is applicable only for two additional papers to be presented by the same author.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-4 border border-black-200">
+              <h4 className="font-semibold mb-2 text-black-900">Extra Page Charges</h4>
+              <p>
+                If the final manuscript in IEEE format exceeds 6 pages, Rs. 1770 (Indian Author) or USD 40 (Foreign Author) will be charged 
+                for each extra page up to two additional pages only. Papers with more than 8 pages will not be considered for publication.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-4 border border-black-200">
+              <h4 className="font-semibold mb-2 text-black-900">Registration Inclusions</h4>
+              <p>
+                The registration fee will include Registration kit, access to keynote and technical sessions, networking tea &amp; snacks, 
+                working lunch on both days, and Conference banquet dinner.
+              </p>
+            </div>
           </div>
         </div>
       </div>
