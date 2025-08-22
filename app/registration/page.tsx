@@ -1,4 +1,6 @@
+"use client"
 import React from 'react';
+import Link from 'next/link';
 import Navbar from '../../components/Navbar';
 import Contact from '../../components/contact';
 import RegistrationGuidelinesNote from '../../components/registrationguidelines';
@@ -20,12 +22,14 @@ const RegistrationPage: React.FC = () => {
   return (
     <>
       <Navbar />
-        <div className="pt-20 mx-16 my-2.5">
-          <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00]">Registration Details</h2>
-          <div className="w-[35%] h-1 bg-[#CC5F00] mt-2"></div>
-        </div>
+      <div className="pt-20 mx-16 my-2.5">
+        <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00]">Registration Details</h2>
+        <div className="w-[35%] h-1 bg-[#CC5F00] mt-2"></div>
+      </div>
+
       <div className="w-full max-w-7xl mx-auto p-4 sm:p-6 bg-gray-50">
-         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 text-center">Registration Fees</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 text-center">Registration Fees</h1>
+
         {/* Desktop Table */}
         <div className="hidden lg:block overflow-x-auto shadow-lg rounded-lg">
           <table className="min-w-full bg-white border border-gray-200">
@@ -41,7 +45,7 @@ const RegistrationPage: React.FC = () => {
                   </th>
                 ))}
               </tr>
-              
+
               {/* Sub Header Row */}
               <tr>
                 {registrationPeriods.map(period => (
@@ -54,7 +58,7 @@ const RegistrationPage: React.FC = () => {
                   </React.Fragment>
                 ))}
               </tr>
-              
+
               {/* Column Headers */}
               <tr>
                 {registrationPeriods.map(period => (
@@ -73,7 +77,7 @@ const RegistrationPage: React.FC = () => {
                 ))}
               </tr>
             </thead>
-            
+
             <tbody>
               {registrationPeriods[0].delegates.map((delegate, delegateIndex) => (
                 <React.Fragment key={delegate.type}>
@@ -82,7 +86,7 @@ const RegistrationPage: React.FC = () => {
                       {delegate.type}
                     </td>
                   </tr>
-                  
+
                   {delegate.categories.map(category => (
                     <tr key={category.name} className="hover:bg-gray-50">
                       <td className="bg-emerald-300 border border-gray-300 px-4 py-3 font-semibold text-gray-800">
@@ -143,8 +147,29 @@ const RegistrationPage: React.FC = () => {
             </div>
           ))}
         </div>
+
+        {/* ===== CTA from the image: between Fees and Guidelines ===== */}
+        <div className="mt-10 mb-8">
+          <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5 sm:p-6 text-center">
+            <p className="text-lg sm:text-xl font-semibold text-gray-900">
+              Fill the registration form{' '}
+              <Link
+                href="https://docs.google.com/forms/d/e/1FAIpQLScQwqOsqcLufpzmUd6fsJ8_l7NzhQDZAVWriz1wq967W-KhyA/viewform?usp=sharing&ouid=114460687899446289354"
+                className="text-blue-600 hover:text-blue-700 hover:underline font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Registration Form
+              </Link>
+              .
+            </p>
+          </div>
+        </div>
+        {/* ===== End CTA ===== */}
       </div>
-      <RegistrationGuidelinesNote/>
+
+      {/* Registration Guidelines come after the CTA */}
+      <RegistrationGuidelinesNote />
       <Contact />
     </>
   );
