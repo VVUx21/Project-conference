@@ -152,14 +152,14 @@ const RegistrationPage: React.FC = () => {
         <div className="mt-10 mb-8">
           <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5 sm:p-6 text-center">
             <p className="text-lg sm:text-xl font-semibold text-gray-900">
-              Fill the registration form{' '}
+              Fill the registration form and Pay here. {' '}
               <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLScQwqOsqcLufpzmUd6fsJ8_l7NzhQDZAVWriz1wq967W-KhyA/viewform?usp=sharing&ouid=114460687899446289354"
                 className="text-blue-600 hover:text-blue-700 hover:underline font-bold"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Registration Form
+                Registration Form and Payment
               </Link>
               .
             </p>
