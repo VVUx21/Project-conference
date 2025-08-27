@@ -13,7 +13,7 @@ import Image from 'next/image';
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Committee", href: "/Committee" },
-  { name: "Keynote", href: "/comingsoon" },
+  { name: "Keynote", href: "/keynote" },
   { name: "Call for Papers", href: "/", action: "download" },
   { name: "Paper Submission", href: "/papersubmission" },
   { name: "Accepted Papers", href: "/comingsoon" },
