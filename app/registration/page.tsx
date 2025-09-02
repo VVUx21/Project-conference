@@ -165,6 +165,22 @@ const RegistrationPage: React.FC = () => {
             </p>
           </div>
         </div>
+        <div className="mt-10 mb-8">
+          <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5 sm:p-6 text-center">
+            <p className="text-lg sm:text-xl font-semibold text-gray-900">
+              Fill the form for accommodation. {' '}
+              <Link
+                href="https://docs.google.com/forms/d/e/1FAIpQLScoG2eqcqz4Ug_Hmbs_KU4NvCnHJ2dbRiJPyTAolj7CCJw5tA/viewform?usp=header"
+                className="text-blue-600 hover:text-blue-700 hover:underline font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Accommodation Information
+              </Link>
+              .
+            </p>
+          </div>
+        </div>
         {/* ===== End CTA ===== */}
       </div>
 

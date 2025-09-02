@@ -134,6 +134,51 @@ const PageKeynote: React.FC = () => {
           </div>
         </div>
       </div>
+       <div className="text-black font-roboto font-medium text-2xl leading-[48px] tracking-normal p-6 mt-8">
+        <div className="bg-gray-50 rounded-lg p-8 mb-12 shadow-lg">
+          <div className="flex flex-col lg:flex-row gap-8 items-start">
+            {/* Image Section */}
+            <div className="lg:w-1/3">
+              <Image
+                src="https://res.cloudinary.com/dgtdkqfsx/image/upload/v1756804741/WhatsApp_Image_2025-09-01_at_14.28.09_68185a28_pw3ct9.jpg"
+                alt="Prof. Jayanta Mukhopadhyay"
+                width={400}
+                height={400}
+                className="object-cover rounded-lg shadow-md"
+              />
+            </div>
+            
+            {/* Content Section */}
+            <div className="lg:w-2/3">
+              <h3 className="text-3xl font-bold mb-4 text-[#CC5F00]">
+                Dr. Poonam Yadav, Scientist 'D'
+              </h3>
+              <div className="text-lg leading-relaxed text-gray-800 space-y-4">
+                <p>
+                  Dr. Poonam Yadav is a seasoned biotechnology expert with over 15 years of distinguished service at the Department of Science & Technology (DST), Government of India. Currently serving as Scientist 'D' in the Frontier and Futuristic Technologies (FFT) Division, she plays a pivotal role in shaping India's innovation ecosystem through the National Mission on Interdisciplinary Cyber-Physical Systems (NM-ICPS).
+                </p>
+                <p>
+                  She manages mission-mode R&D projects, fosters academia-industry-government collaborations, and drives the integration of emerging technologies such as AI, ML, and Cyber-Physical Systems into national priorities. Dr. Yadav also contributes significantly to regulatory excellence through her role at the National GLP Compliance Monitoring Authority (NGCMA).
+                </p>
+                <p>
+                  Her academic credentials include a PhD in Biotechnology with specializations in Functional Genomics, Bio nanotechnology, Nano & Advanced Materials, and Synchrotron Science. Her research portfolio includes 15 peer-reviewed publications, 4 co-authored books, and over 150 citations. She has represented India in prestigious international forums including India-Japan Joint Committee Meeting, BRICS Working Group on Nanotechnology, and Materials Genome Initiative in Washington D.C.
+                </p>
+                <div className="mt-6 space-y-2">
+                  <Link href="https://dst.gov.in/whoswho/dr-poonam-yadav-0" className="text-blue-500 underline hover:text-blue-700 transition-colors block">
+                    DST Profile - Dr. Poonam Yadav
+                  </Link>
+                  <Link href="https://nmicps.in/management" className="text-blue-500 underline hover:text-blue-700 transition-colors block">
+                    NM-ICPS Management Team
+                  </Link>
+                  <Link href="https://www.linkedin.com/in/poonam-yadav-31942320" className="text-blue-500 underline hover:text-blue-700 transition-colors block">
+                    LinkedIn Profile
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <Contact/>
     </div>

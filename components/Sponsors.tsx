@@ -56,7 +56,7 @@ const Sponsorship: React.FC = () => (
           className="
             rounded-xl p-8
             bg-gradient-to-br from-orange-50 to-orange-100
-            border border-orange-200/50
+            border border-orange-/50
             shadow-md hover:shadow-xl
             transform transition-all 
             duration-300 ease-in-out 
@@ -73,7 +73,7 @@ const Sponsorship: React.FC = () => (
             src={sponsor.logoSrc}
             alt={sponsor.altText ?? sponsor.name}
             width={160}
-            height={80}
+            height={160}
             className="object-contain mx-auto relative z-10 filter group-hover:brightness-110 transition-all duration-300"
           />
         </a>
