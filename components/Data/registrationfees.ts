@@ -3,7 +3,7 @@ const Registrationdata: RegistrationData = {
   "registrationPeriods": [
     {
       "name": "Early Registration",
-      "deadline": "(Till September 5, 2025)",
+      "deadline": "(Till September 12, 2025)",
       "delegates": [
         {
           "type": "Indian Delegates (INR)",
@@ -53,7 +53,7 @@ const Registrationdata: RegistrationData = {
     },
     {
       "name": "Late Registration",
-      "deadline": "(Till 20th September 2025)",
+      "deadline": "(Till 25th September 2025)",
       "delegates": [
         {
           "type": "Indian Delegates (INR)",
