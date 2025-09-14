@@ -16,7 +16,7 @@ const navigation = [
   { name: "Keynote", href: "/keynote" },
   { name: "Call for Papers", href: "/", action: "download" },
   { name: "Paper Submission", href: "/papersubmission" },
-  { name: "Accepted Papers", href: "/comingsoon" },
+  { name: "Registered Papers", href: "/registeredpapers" },
   { name: "Registration", href: "/registration" },
   { name: "Sponsors", href: "/comingsoon" },
 ];

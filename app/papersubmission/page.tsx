@@ -11,8 +11,7 @@ const PageSubmission: React.FC = () => {
     <Navbar />
     <div id='submission' className="text-white p-6 sm:pt-60 md:px-16 md:pt-12 lg:px-20 lg:pt-16 pt-10">
       <div className="md:pt-18 pt-10 ">
-        <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00]">CVMI-2025 Paper Submission</h2>
-        <div className="w-[50%] h-1 bg-[#CC5F00] mt-2"></div>
+        <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00] underline">CVMI-2025 Paper Submission</h2>
         </div>
       <div className="text-black font-roboto font-medium text-2xl leading-[48px] tracking-normal p-6 mt-">
         <h2 className="text-4xl font-bold mb-4 text-[#000] underline">

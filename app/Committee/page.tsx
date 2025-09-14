@@ -30,8 +30,7 @@ const Organizing = () => {
     <div id="ourteam" className="bg-white">
         <Navbar />
       <div className="pt-20 mx-16 my-2.5">
-        <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00]">CVMI-2025 Organizing Committee</h2>
-        <div className="w-[58%] h-1 bg-[#CC5F00] mt-2"></div>
+        <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00] underline">CVMI-2025 Organizing Committee</h2>
       </div>
       {Object.keys(groupedMembers).map((team,id) => (
         <div key={id} className="max-w-6xl px-4 sm:px-6 lg:px-8">

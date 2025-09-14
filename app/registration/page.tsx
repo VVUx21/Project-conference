@@ -22,9 +22,8 @@ const RegistrationPage: React.FC = () => {
   return (
     <>
       <Navbar />
-      <div className="pt-20 mx-16 my-2.5">
-        <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00]">Registration Details</h2>
-        <div className="w-[35%] h-1 bg-[#CC5F00] mt-2"></div>
+      <div className="pt-20 p-2 mx-16 my-2.5">
+        <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00] underline">Registration Details</h2>
       </div>
 
       <div className="w-full max-w-7xl mx-auto p-4 sm:p-6 bg-gray-50">
