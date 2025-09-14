@@ -66,7 +66,6 @@ const AcceptedPapersList: React.FC<AcceptedPapersListProps> = ({ papers = [] }) 
         </div>
       </div>
 
-      {/* Desktop Table View */}
       <div className="hidden lg:block">
         <div className="overflow-x-auto shadow-lg rounded-lg border border-gray-200">
           <table className="w-full bg-white">
