@@ -47,7 +47,7 @@ const Schedule: React.FC = () => {
     {
       id: 5,
       title: "Camera Ready Submission",
-      date: "15 September 2025",
+      date: "25 September 2025",
       description: "Submit final camera-ready version of accepted papers",
       color: "from-orange-500 to-orange-600",
       bgGradient: "bg-gradient-to-br from-orange-50 to-orange-100"
@@ -144,3 +144,4 @@ const Schedule: React.FC = () => {
 };
 
 export default Schedule;
+
