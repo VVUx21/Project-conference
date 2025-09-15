@@ -18,7 +18,7 @@ const navigation = [
   { name: "Paper Submission", href: "/papersubmission" },
   { name: "Registered Papers", href: "/registeredpapers" },
   { name: "Registration", href: "/registration" },
-  { name: "Sponsors", href: "/comingsoon" },
+  { name: "Camera-ready Instructions", href: "/camera-ready-instructions" },
 ];
 
 export default function Navbar() {
@@ -114,3 +114,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
