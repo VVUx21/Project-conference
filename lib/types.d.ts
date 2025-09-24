@@ -33,4 +33,25 @@ interface RegistrationData {
   feeCategories: string[];
 }
 
+interface Track {
+  name: string;
+  paperIds: string;
+  roomNo: string;
+}
+
+interface TimeSlot {
+  time: string;
+  type: 'registration' | 'inauguration' | 'break' | 'keynote' | 'tracks' | 'lunch' | 'dinner' | 'ceremony';
+  title?: string;
+  venue?: string;
+  speaker?: string;
+  tracks?: Track[];
+}
+
+export interface DaySchedule {
+  date: string;
+  day: string;
+  slots: TimeSlot[];
+}
+
 export default RegistrationData;
