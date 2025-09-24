@@ -8,10 +8,7 @@ import Attractions from '../components/Attraction';
 import Schedule from '../components/Schedule';
 import Submission from '../components/Submission';
 import Sponsorship from '../components/Sponsors';
-<<<<<<< HEAD
-=======
 import ConferenceSchedule from '../components/Dayschedule';
->>>>>>> 06a194c (Integrated the changes daysschedule and other minor changes)
 
 export default function Page() {
     return <div>
@@ -20,10 +17,7 @@ export default function Page() {
       <Sponsorship/>
       <Attractions/>
       <Topics />
-<<<<<<< HEAD
-=======
       <ConferenceSchedule/>
->>>>>>> 06a194c (Integrated the changes daysschedule and other minor changes)
       <Submission/>
       <Schedule/>
       <KeynoteSpeakers/>
