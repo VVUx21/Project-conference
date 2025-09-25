@@ -166,10 +166,7 @@ const FinalSubmissionGuidelines: React.FC = () => {
 
               <div>
                 <p>
-                  <strong>Step 2:</strong> From the Author Console in CMT, click on the link 'Create Camera Ready Submission'. Submit the IEEE PDF eXpress 
-                  verified paper (as XXX.pdf), duly signed copyright form downloaded from IEEE (as XXX-CR.pdf), response to reviewer comments 
-                  (as XXX-RRC.pdf) and Source Editable (Word/LaTeX format) file of Camera Ready Copy (in Zip folder) with all supporting files 
-                  (as XXX.zip). Please note that XXX is the three-digit paper ID (zero-appended if necessary, for example XXX for paper id 5 will be 005).
+                  <strong>Step 2:</strong> From the Author Console in CMT, click on the link 'Create Camera Ready Submission'. Submit the IEEE PDF eXpress verified paper (as XXX.pdf), duly signed copyright form downloaded from IEEE (as XXX-CR.pdf). Please note that XXX is the three-digit paper ID (zero-appended if necessary, for example XXX for paper id 5 will be 005).
                 </p>
               </div>
 
