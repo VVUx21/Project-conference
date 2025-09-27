@@ -29,13 +29,6 @@ const defaultPapers: Paper[] = [
       "Author Institution": "Chaitanya Bharathi Institute of Technology, Hyderabad"
     },
     {
-      "SL. No": 4,
-      "Paper-ID": 27,
-      "Name of Author": "Kadali Khyathi Sri Nagaveni",
-      "Title of Paper": "HUFT-Net : Multi-Modal Approaches for Automated Diagnosis of Respiratory Diseases using Respiratory Sounds",
-      "Author Institution": "Chaitanya Bharathi Institute of Technology, Hyderabad"
-    },
-    {
       "SL. No": 5,
       "Paper-ID": 46,
       "Name of Author": "Katupalli Sravyasree Samhitha ",
@@ -173,7 +166,7 @@ const defaultPapers: Paper[] = [
       "Paper-ID": 202,
       "Name of Author": "Gunavathi C",
       "Title of Paper": "Enhanced Deep Learning Framework for Alzheimer's Detection Using Attention Mechanism: A Hybrid CNN Approach ",
-      "Author Institution": "Vellore Institute of Technology, Andhra pradesh"
+      "Author Institution": "Vellore Institute of Technology, Vellore"
     },
     {
       "SL. No": 25,
