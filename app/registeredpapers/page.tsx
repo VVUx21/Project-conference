@@ -18,7 +18,7 @@ const AcceptedPapersList: React.FC<AcceptedPapersListProps> = ({ papers = [] }) 
         <Navbar />
         {/* Title */}
         <div className="md:pt-10 pt-10 mb-5 ">
-        <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00] underline">Early Registrations</h2>
+        <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00] underline">Final Registrations</h2>
         </div>
 
       {/* Mobile Card View */}
@@ -128,7 +128,7 @@ const AcceptedPapersList: React.FC<AcceptedPapersListProps> = ({ papers = [] }) 
     <div className="mt-6 flex justify-center">
     <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-3 rounded-md max-w-xl">
         <span className="text-sm md:text-base font-semibold">
-        ⚠️ The above list is tentative and subject to verification by Finance Office
+        ⚠️ The above list is subject to verification by Finance Office
         </span>
     </div>
     </div>

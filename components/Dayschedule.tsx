@@ -35,7 +35,7 @@ const ConferenceSchedule: React.FC = () => {
       {/* Header */}
       <div className="w-full">
         <h1 className="md:text-5xl text-3xl  font-bold underline text-[#CC5F00] mb-4 sm:mb-6 text-left relative">
-            CVMI-2025 Tentative Program Schedule 
+            CVMI-2025 Program Schedule 
         </h1>
       </div>
 
