@@ -53,7 +53,7 @@ export const scheduleData: DaySchedule[] = [
             },
             {
               "name": "Track-3: (AI Applications)",
-              "paperIds": "46, 75, 159, 162, 164, 248, 253",
+              "paperIds": "46, 75, 159, 162, 164, 248, 253, 298",
               "roomNo": "TIIR Auditorium"
             }
           ]

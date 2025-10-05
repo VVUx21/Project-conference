@@ -426,6 +426,13 @@ const defaultPapers: Paper[] = [
     "Name of Author": "Kadali Khyathi Sri Nagaveni",
     "Title of Paper": "HUFT-Net : Multi-Modal Approaches for Automated Diagnosis of Respiratory Diseases using Respiratory Sounds",
     "Author Institution": "Chaitanya Bharathi Institute of Technology, Hyderabad"
+  },
+  {
+    "SL. No": 61,
+    "Paper-ID": 298,
+    "Name of Author": "Saarang Arora",
+    "Title of Paper": "Bringing Llama-3 to the Edge: End-to-End Quantized Conversational AI on Raspberry Pi 5",
+    "Author Institution": "AIGENTHIX"
   }
 ];
 
