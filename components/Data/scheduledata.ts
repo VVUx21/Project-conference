@@ -48,7 +48,7 @@ export const scheduleData: DaySchedule[] = [
             },
             {
               "name": "Track-2: (Biometrics, Forensics Security & AI Applications)",
-              "paperIds": "401, 280, 294, 301, 306, 365, 393",
+              "paperIds": "401, 280, 294, 301, 306, 365, 393, 296",
               "roomNo": "TI 120"
             },
             {

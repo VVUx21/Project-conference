@@ -433,6 +433,13 @@ const defaultPapers: Paper[] = [
     "Name of Author": "Saarang Arora",
     "Title of Paper": "Bringing Llama-3 to the Edge: End-to-End Quantized Conversational AI on Raspberry Pi 5",
     "Author Institution": "AIGENTHIX"
+  },
+  {
+    "SL. No": 62,
+    "Paper-ID": 296,
+    "Name of Author": " Swapan Maiti",
+    "Title of Paper": "Improving Security of LSB Image Steganography for Pixel Locator Sequence using Cryptographic Techniques with AES",
+    "Author Institution": "VNIT Nagpur"
   }
 ];
 
