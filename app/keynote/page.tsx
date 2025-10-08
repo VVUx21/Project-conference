@@ -14,7 +14,7 @@ const PageKeynote: React.FC = () => {
         <h2 className="md:text-5xl text-3xl font-bold text-[#CC5F00] underline">CVMI-2025 Keynote Speakers</h2>
       </div>
       
-      {/* Keynote Speaker 1 */}
+
       <div className="text-black font-roboto font-medium text-2xl leading-[48px] tracking-normal p-6 mt-8">
         <div className="bg-gray-50 rounded-lg p-8 mb-12 shadow-lg">
           <div className="flex flex-col lg:flex-row gap-8 items-start">
@@ -47,6 +47,47 @@ const PageKeynote: React.FC = () => {
                 <div className="mt-6">
                   <Link href="https://www.iitkgp.ac.in/department/CS/faculty/cs-jay" className="text-blue-500 underline hover:text-blue-700 transition-colors">
                     More information about Prof. Jayanta Mukhopadhyay
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Keynote Speaker 4 */}
+      <div className="text-black font-roboto font-medium text-2xl leading-[48px] tracking-normal p-6 mt-8">
+        <div className="bg-gray-50 rounded-lg p-8 mb-12 shadow-lg">
+          <div className="flex flex-col lg:flex-row gap-8 items-start">
+            {/* Image Section */}
+            <div className="lg:w-1/3">
+              <Image
+                src="https://res.cloudinary.com/dgtdkqfsx/image/upload/v1759909459/WhatsApp_Image_2025-10-07_at_10.20.12_af4005be_pihkec.jpg"
+                alt="Prof. P.K Biswas"
+                width={400}
+                height={400}
+                className="object-cover rounded-lg shadow-md"
+              />
+            </div>
+            
+            {/* Content Section */}
+            <div className="lg:w-2/3">
+              <h3 className="text-3xl font-bold mb-4 text-[#CC5F00]">
+                Prof. P.K Biswas
+              </h3>
+              <div className="text-lg leading-relaxed text-gray-800 space-y-4">
+                <p>
+                  Prof. Prabir Kumar Biswas received his B.Tech., M.Tech., and Ph.D. degrees in Electronics and Electrical Communication Engineering from the Indian Institute of Technology Kharagpur in 1985, 1989, and 1991 respectively. He served Bharat Electronics Ltd. (BEL), Ghaziabad as a Deputy Engineer during the period 1985 to 1987. In 1991 he joined the faculty of the Department of Electronics and Electrical Communication Engineering at IIT Kharagpur where he is presently a Professor and also holding the position of Head of the Department. He served as the Head of the Computer and Informatics Center at IIT Kharagpur from March 2008 to December 2014.
+                </p>
+                <p>
+                Prof. Biswas visited the University of Kaiserslautern, Germany during March 2002 to February 2003 as Alexander von Humboldt Fellow. His research interests are in image and video processing, pattern recognition, multimedia systems etc. He has supervised 12 doctoral students, and published more than 100 research papers in various international and national journals and conference proceedings in these areas. He has prepared four online Video Courses under NPTEL program.
+                </p>
+                <p>
+                  Prof. Biswas is a Senior Member of the IEEE. He also holds life membership of Indian Unit of Pattern Recognition and Artificial Intelligence (IUPRAI, India). He has served as a member of technical program committees of several national and international conferences, and served as Organizing Chair of Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP) in 2008.
+                </p>
+                <div className="mt-6">
+                  <Link href="https://www.iitkgp.ac.in/department/EC/faculty/ec-pkb " className="text-blue-500 underline hover:text-blue-700 transition-colors">
+                    More information about Prof. P.K Biswas
                   </Link>
                 </div>
               </div>
