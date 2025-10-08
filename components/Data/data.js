@@ -1,7 +1,7 @@
 export const data=[
   {
     "id": 1,
-    "name": "Prof. K UmaMaheshwar Rao",
+    "name": "Prof. K Umamaheshwar Rao",
     "image": "https://res.cloudinary.com/dgtdkqfsx/image/upload/v1741733230/UmaMaheshwar_rao_urudtx.jpg",
     "college": "Director, NIT Rourkela",
     "teams": ["Patrons"]
@@ -182,3 +182,4 @@ export const data=[
     "teams": ["Conference Chairs", "Conference Convener & Information Contact"]
   },
 ]
+
