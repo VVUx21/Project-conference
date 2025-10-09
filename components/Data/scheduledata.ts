@@ -71,17 +71,22 @@ export const scheduleData: DaySchedule[] = [
       "day": "Monday",
       "slots": [
         {
-          "time": "09:00 AM-10:15 AM",
+          "time": "09:00 AM-10:00 AM",
           "type": "keynote",
           "title": "Keynote 3: Dr. Poonam Yadav, Scientist 'D', Department of Science & Technology (DST), Government of India"
         },
         {
-          "time": "10:15 AM-10:45 AM",
+          "time": "10:00 AM-11:00 AM",
+          "type": "keynote",
+          "title": "Keynote-4: Prof. P. K. Biswas, IIT Kharagpur"
+        },
+        {
+          "time": "11:00 AM-11.15 AM",
           "type": "break",
           "title": "Snacks and Tea (Networking Break)"
         },
         {
-          "time": "10:45 AM-01:30 PM",
+          "time": "11:15 AM-01:30 PM",
           "type": "tracks",
           "tracks": [
             {
@@ -102,7 +107,7 @@ export const scheduleData: DaySchedule[] = [
           ]
         },
         {
-          "time": "1:30 PM-03:00 PM",
+          "time": "1:30 PM-02:45 PM",
           "type": "lunch",
           "title": "Lunch",
           "venue": "Community Centre, NIT Campus"
