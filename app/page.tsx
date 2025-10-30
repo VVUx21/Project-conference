@@ -9,6 +9,7 @@ import Schedule from '../components/Schedule';
 import Submission from '../components/Submission';
 import Sponsorship from '../components/Sponsors';
 import ConferenceSchedule from '../components/Dayschedule';
+import BestPaperAwards from '../components/Bestpaperawards';
 
 export default function Page() {
     return <div>
@@ -18,6 +19,7 @@ export default function Page() {
       <Attractions/>
       <Topics />
       <ConferenceSchedule/>
+      <BestPaperAwards/>
       <Submission/>
       <Schedule/>
       <KeynoteSpeakers/>

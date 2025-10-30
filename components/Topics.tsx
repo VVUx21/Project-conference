@@ -57,7 +57,7 @@ const Topics: React.FC = () => {
         "Compressed Image/Video Analytics",
         "Other Computer Vision Applications",
       ],
-     color: "from-orange-500 to-orange-600",
+    color: "from-orange-500 to-orange-600",
       bgGradient: "bg-gradient-to-br from-orange-50 to-orange-100"
     },
     {
