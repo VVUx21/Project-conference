@@ -1,9 +1,7 @@
-
 interface Fee {
   member: number;
   nonMember: number;
 }
-
 
 interface FeeTypes {
   [key: string]: Fee; 
@@ -14,13 +12,11 @@ interface RegistrationCategory {
   fees: FeeTypes;
 }
 
-
 interface Delegate {
   type: string;
   currency: 'INR' | 'USD';
   categories: RegistrationCategory[];
 }
-
 
 interface RegistrationPeriod {
   name: string;
